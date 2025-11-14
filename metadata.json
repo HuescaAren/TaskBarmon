@@ -1,0 +1,5 @@
+{
+  "name": "HuescaAren's Project: Gestión de Tareas",
+  "description": "Una aplicación web para la gestión de tareas con un diseño retro, limpio y moderno. Permite agregar, editar, completar y eliminar tareas, con actualizaciones en tiempo real utilizando Supabase.",
+  "requestFramePermissions": []
+}

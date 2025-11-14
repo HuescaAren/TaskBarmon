@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-g" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HuescaAren's Project: Gestión de Tareas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'retro-bg': '#FDF6E3',
+              'retro-container': '#EEE8D5',
+              'retro-text': '#657B83',
+              'retro-text-muted': '#93A1A1',
+              'retro-header': '#268BD2',
+              'retro-accent-add': '#859900',
+              'retro-accent-delete': '#DC322F',
+              'retro-accent-edit': '#B58900',
+              'retro-border': '#586E75',
+            },
+            fontFamily: {
+              'sans': ['"Inter"', 'sans-serif'],
+              'mono': ['"VT323"', 'monospace']
+            },
+            boxShadow: {
+              'retro': '4px 4px 0px 0px #586E75',
+              'retro-sm': '2px 2px 0px 0px #586E75',
+              'retro-hover': '6px 6px 0px 0px #586E75',
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=VT323&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@supabase/supabase-js": "https://aistudiocdn.com/@supabase/supabase-js@^2.81.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-retro-bg">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
